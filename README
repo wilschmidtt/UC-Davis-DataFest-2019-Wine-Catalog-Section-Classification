@@ -1,30 +1,38 @@
-This program was created for the UC Davis DataFest - 2019. The Challenge: The UC Davis Library has over 200 scanned catalogs spanning
+DATAFEST URL: http://ds.lib.ucdavis.edu/eventscalendar/datafest-wine-catalog-challenge/
+
+THE CHALLENGE: The UC Davis Library has over 200 scanned catalogs spanning
 nearly a 50 year period. How do we translate a scanned image into usable data for economists, historians, archivists, and other
 researchers?
 
-Breif description of my team's solution: The goal - unstructured text recognition using Python and Spyder. Python libraries utilized
-include Pandas, NumPy, Matplotlib, and sklearn. Clustering based off of feature location was performed using the K-Means machine learning
-algorithm.
+HYPOTHESIZED SOLUTION: Unstructured text recognition using Python and Spyder. Python libraries utilized include Pandas, NumPy,
+Matplotlib, and sklearn. Clustering based off of feature location was performed using the K-Means machine learning algorithm.
 
 
-Explaining how the program works:
-  -First, a block of code was provided to all participants that connects them to a server which allows them to access all of the wine
-   catalogues within a dataframe. The dataframe created is called 'page_ark', and it contians the ID's of all of the wine catalouges. 
-   For this project, we foucsed on a specific catalouge, which had the ID: 'd7q36x-009'. However, all the ID's can be found and accessed
-   within the page_ark dataframe.
-  -Next, we created a dataframe called 'words'. Each word on the catalogue has a bounding box drawn around it, and 'words' contains the
-   coordinates of each corner of the bounding box, for every word on the specific catalouge. In this case, we have all the coordinates
-   for the corners of the bounding boxes for the words on catalouge 'd7q36x-009'. The dataframe also includes the word itself in the last
-   column, but my group was only focused on section detection based off of spatial structure, and we did not worry about the semantics.
-   (NOTE: The pyperclip module was used so that the link for the catalouge is automatically coppied to the user's clipboard when the 
-   program is run. This allows you to paste it in your browser so that you can actually see what the scan of the catalogue looks like.
-   This only works if you are using a UC Davis VPN and have a UC Davis login though.
-  -The next step: Create a dataframe titled 'X' that contains the coordinates of the top left corner of each bounding box for each word.
-   Then, plot all of these words on the same scatter plot, and use this to get an intial feeling for spacial structure of the words 
-   on the catalogue. (NOTE: The positive y-axis is in the downward direction. This is simply how the dataframe was designed and given
-   to students.)
-  -Next: An OCR was used to look at each bounding box and predict what the word inside it meant. The OCR gave a decimal value indicating
-   the confidence that it had in each prediction. To avoid error, we filtered our dataframe so that it would only countain the coordinates
-   of words that the OCR predicted with greater than 80% confidence 
-  -Next: The start of iteration 1 - 
+HOW PROGRAM WORKS:
+
+  -First, a block of code was provided to all participants that connects them to a server which allows them to access the URL of all the
+   wine catalogues. In this program I foucsed on a specific catalouge which had the ID: 'd7q36x-009'. Any ID can be used though.
+  -Next step: Created a dataframe titled 'words' that contains the coordinates of each bounding box (there is a bounding box around every word
+   on the catalouge). NOTE: The pyperclip module is used so that the URL for the catalouge in question is automatically coppied to the 
+   user's clipboard.
+  -Next step: Use the location of bounding boxes to plot all words within a scatter plot. NOTE: The positive y-axis is in the downward
+   direction.
+  -Next step: An OCR was used to predict the words within each bounding box. To avoid error, only words that the OCR predicted with > 80%
+   confidence were plotted.
+  -Next step: Start iteration 1 - Use elbow method to determine optimal number of clusters to split data into. Automate the process of
+   selecting the optimal number of clusters by return the change in slope at each interval within the elbow graph, finding the max change
+   in slope, then using the index as the optimal number of clusters. Apply K-means to this dataset using the optimal number of clusters and
+   plot the new clusters, creating a separate plot and dataframe for each.
+  -Next Step: Start iteration 2 - do the above steps on each of the new clusters, thus breaking them into their respective ideal number
+   of clusters. Create a new dataframe for each of the new clusters, and save an image of what each plot looks like into whatever directory
+   the main module is located within. 
+  -Next Step: Optional Iteration - This section will remain commented out unless user desires to use it. This section should be executed
+   if you look at each of the new clusters and decide that one should be divided into further sub clusters. When executing this section, 
+   the user will be promted to enter the name of the cluster in question. All the cluster names are located within the title of their
+   respective scatter plots. Once cluster name is entered, this cluster will be broken up into its optimal number of clusters, and each new
+   cluster will be plotted and saved in the same directory as the main module. This section can be executed as many times as desired, on as
+   many clusters as desired. NOTE: This section is intentionally left up to the user's disgression because if it was executed automatically,
+   certain clusters could be subject to overfitting which would erase valuable structural information about the catalouge in question.
+   
+END OF PROGRAM
    
