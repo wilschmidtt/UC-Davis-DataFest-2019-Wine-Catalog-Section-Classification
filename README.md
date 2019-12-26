@@ -1,10 +1,8 @@
 # UC Davis DataFest 2019 - Section Detector
-
-### The Challenge 
+#### The Challenge 
 The UC Davis Library has over 200 scanned catalogs spanning nearly a 50 year period. How do we translate a scanned image
 into usable data for economists, historians, archivists, and other researchers?
-
-### Hypothesized Solution
+#### Hypothesized Solution
 Unstructured text recognition using Python and Spyder. Utilize Pandas, NumPy, Matplotlib, and sklearn. Clustering 
 by feature location was done with K-Means machine learning algorithm.
 
