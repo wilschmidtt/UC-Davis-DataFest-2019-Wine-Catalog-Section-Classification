@@ -10,15 +10,15 @@ by feature location was done with K-Means machine learning algorithm.
 
 ## Libraries to Install
 * psycopg2 - DB API 2.0 compliant PostgreSQL driver
-   `conda install -c anaconda psycopg2`
+  - `conda install -c anaconda psycopg2`
 * matplotlib - plotting library for NumPy
-   `conda install -c conda-forge matplotlib`
+  - `conda install -c conda-forge matplotlib`
 * pandas - software library for data manipulation and analysis
-   `conda install -c anaconda pandas`
+  - `conda install -c anaconda pandas`
 * scikit learn - machine learning library
-   `conda install -c anaconda scikit-learn`
+  = `conda install -c anaconda scikit-learn`
 * numpy - general-purpose array-processing package
-   `conda install -c anaconda numpy`
+  - `conda install -c anaconda numpy`
 
 ### Prerequisites
 * Anaconda (Python 3.7 Version)
