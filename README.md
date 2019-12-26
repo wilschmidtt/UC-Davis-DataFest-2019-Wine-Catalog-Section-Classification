@@ -10,7 +10,7 @@ by feature location was done with K-Means machine learning algorithm.
 
 ## Libraries to Install
 * psycopg2 - DB API 2.0 compliant PostgreSQL driver
-  - 'conda install -c anaconda psycopg2'
+  - '''conda install -c anaconda psycopg2'''
 * matplotlib - plotting library for NumPy
   - 'conda install -c conda-forge matplotlib'
 * pandas - software library for data manipulation and analysis
