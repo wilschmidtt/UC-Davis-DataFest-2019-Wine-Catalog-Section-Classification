@@ -29,15 +29,19 @@ by feature location was done with K-Means machine learning algorithm.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+* Simply open Anaconda, launch Spyder (used version 3.3.6 to create this program, but it shouldn't matter which version you run it on),
+  and select all the code and run it at once. 
+* In both the terminal and the working directory for this program you will see a series of scatter plots titled, 'Cluster of Words',
+  each with a cooresponding iteration.
+  - Iteration 0: Scatter plot of all the words that appear on the desired catalog before any manipulation has been done.
+  - Iteration 1: Scatter plot of all the words, except this time they are color coded based off of what cluster they fall into (NOTE:
+    The elbow method was used to determine the optimal number of clusters for each iteration of the data. An image of the line graph
+    used for the elbow method can be seen within the terminal.)
+  - Iteration 2: Each of the clusters from iteration 1 are placed within their own dataframe, and these clusters are then broken up into     their respective ideal number of clusters. The result should be a minimum of four new scatter plots.
+  - Iteration 3 (optional): If you look at the scatter plots and notice that one can still be broken down nicely into groups of 
+    different clusters, then you can enter the name of the cluster in question, and it will be broken down into its constituent sub-
+    clusters. A .png for each of the scatter plots created will be saved within the working directory.
+    - If desired
 
 ## Built With
 
