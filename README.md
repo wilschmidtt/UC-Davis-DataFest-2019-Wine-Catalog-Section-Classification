@@ -51,14 +51,11 @@ by feature location was done with K-Means machine learning algorithm.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **William Schmidt**
+* **Isaiah Valencia** 
+* **Christopher Ton** - [Christopher's GitHub](https://github.com/chriztopherton)
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Thank you to UC Davis Data Science Initative for hosting this event!
+  - [Data Science Initiative](http://dsi.ucdavis.edu/)
