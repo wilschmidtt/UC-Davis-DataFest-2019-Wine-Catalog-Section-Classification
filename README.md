@@ -29,10 +29,10 @@ by feature location was done with K-Means machine learning algorithm.
 
 ## Running the tests
 
-* Simply open Anaconda, launch Spyder (used version 3.3.6 to create this program, but it shouldn't matter which version you run it on),
-  and select all the code and run it at once. 
-* In both the terminal and the working directory for this program you will see a series of scatter plots titled, 'Cluster of Words',
-  each with a cooresponding iteration.
+* Simply open Anaconda, launch Spyder (used version 3.3.6 to create this program), and run the program. 
+* In the terminal you will see a series of scatter plots titled, 'Cluster of Words', each with a cooresponding iteration, along with a 
+  series of line graphs titled, 'The Elbow Method'. A .png file for each of the scatter plots will automatically be saved to the
+  working directory.
   - Iteration 0: Scatter plot of all the words that appear on the desired catalog before any manipulation has been done.
   - Iteration 1: Scatter plot of all the words, except this time they are color coded based off of what cluster they fall into (NOTE:
     The elbow method was used to determine the optimal number of clusters for each iteration of the data. An image of the line graph
@@ -41,27 +41,17 @@ by feature location was done with K-Means machine learning algorithm.
   - Iteration 3 (optional): If you look at the scatter plots and notice that one can still be broken down nicely into groups of 
     different clusters, then you can enter the name of the cluster in question, and it will be broken down into its constituent sub-
     clusters. A .png for each of the scatter plots created will be saved within the working directory.
-    - If desired
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+    - You may re-run iteration 3 on any of the clusters as many times as desired.
+* If you wish to see the actually scan of the catalog in question, the link will automatically be coppied to your clipboard and you can 
+  simply paste to your browser. 
+  - NOTE: The website can only be accessed if you are using a UC Davis VPN
+* This program can be run on each individual catalog. To figure out the ID of the catalog in question, go to line 42 of the program. By 
+  default, you will see that catalog "d7q36x-009" is being used. To run the program using a different catalog, open the dataframe 
+  titled 'page', locate the column titled 'page_ark', and copy/paste any desired ark into line 42, replacing the default ark. 
 
 ## Authors
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
