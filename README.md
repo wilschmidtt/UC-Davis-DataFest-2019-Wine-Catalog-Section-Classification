@@ -1,4 +1,6 @@
 # UC Davis DataFest 2019 - Section Detector
+![What](Images/catalog.png)
+![What](Images/Cluster%20of%20Words%20-%20Iteration%201.png)
 #### The Challenge 
 The UC Davis Library has over 200 scanned catalogs spanning nearly a 50 year period. How do we translate a scanned image
 into usable data for economists, historians, archivists, and other researchers?
