@@ -31,7 +31,7 @@ by feature location was done with K-Means machine learning algorithm.
 
 ## Running the tests
 
-* Simply open Anaconda, launch Spyder (used version 3.3.6 to create this program), and run the program. 
+* Open Anaconda, launch Spyder (used version 3.3.6 to create this program), and run the program. 
 * In the terminal you will see a series of scatter plots titled, 'Cluster of Words', each with a cooresponding iteration, along with a 
   series of line graphs titled, 'The Elbow Method'. A .png file for each of the scatter plots will automatically be saved to the
   working directory.
@@ -53,9 +53,9 @@ by feature location was done with K-Means machine learning algorithm.
 
 ## Authors
 
-* **William Schmidt**
-* **Isaiah Valencia** 
-* **Christopher Ton** - [Christopher's GitHub](https://github.com/chriztopherton)
+* **William Schmidt** - [Wil's LikedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
+* **Isaiah Valencia** - [Isaiah's LikedIn](https://www.linkedin.com/in/isaiah-valencia-4b1531164/)
+* **Christopher Ton** - [Christopher's GitHub](https://github.com/chriztopherton), [Cristopher's LikedIn](https://www.linkedin.com/in/chrton/)
 
 ## Acknowledgments
 
