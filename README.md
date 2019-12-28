@@ -18,7 +18,7 @@ by feature location was done with K-Means machine learning algorithm.
 * pandas - software library for data manipulation and analysis
   - `conda install -c anaconda pandas`
 * scikit learn - machine learning library
-  = `conda install -c anaconda scikit-learn`
+  - `conda install -c anaconda scikit-learn`
 * numpy - general-purpose array-processing package
   - `conda install -c anaconda numpy`
 
@@ -26,8 +26,8 @@ by feature location was done with K-Means machine learning algorithm.
 * Anaconda (Python 3.7 Version)
   - [Anaconda Instillation Instructions](https://docs.anaconda.com/anaconda/install/)
 * UC Davis VPN (optional - used for viewing the wine catalouges)
-  - VPN can only be installed if you are a UC Davis student/staff
   - [VPN - Instillation and Use Instructions](https://www.library.ucdavis.edu/service/connect-from-off-campus/)
+    - VPN can only be installed if you are a UC Davis student/staff
 
 ## Running the tests
 
@@ -44,7 +44,7 @@ by feature location was done with K-Means machine learning algorithm.
     different clusters, then you can enter the name of the cluster in question, and it will be broken down into its constituent sub-
     clusters. A .png for each of the scatter plots created will be saved within the working directory.
     - You may re-run iteration 3 on any of the clusters as many times as desired.
-* If you wish to see the actually scan of the catalog in question, the link will automatically be coppied to your clipboard and you can 
+* If you wish to see the actual scan of the catalog in question, the link will automatically be coppied to your clipboard and you can 
   simply paste to your browser. 
   - NOTE: The website can only be accessed if you are using a UC Davis VPN
 * This program can be run on each individual catalog. To figure out the ID of the catalog in question, go to line 42 of the program. By 
