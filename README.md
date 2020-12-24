@@ -9,29 +9,21 @@ by feature location was done with K-Means machine learning algorithm.
 
 [DataFest Website](http://ds.lib.ucdavis.edu/eventscalendar/datafest-wine-catalog-challenge/)
 
-## Libraries to Install
+## Libraries
 * psycopg2 - DB API 2.0 compliant PostgreSQL driver
-  - `conda install -c anaconda psycopg2`
 * matplotlib - plotting library for NumPy
-  - `conda install -c conda-forge matplotlib`
 * pandas - software library for data manipulation and analysis
-  - `conda install -c anaconda pandas`
 * scikit learn - machine learning library
-  - `conda install -c anaconda scikit-learn`
 * numpy - general-purpose array-processing package
-  - `conda install -c anaconda numpy`
 
 ### Prerequisites
-* Anaconda (Python 3.7 Version)
-  - [Anaconda Instillation Instructions](https://docs.anaconda.com/anaconda/install/)
+* Python 3.7
 * UC Davis VPN (optional - used for viewing the wine catalouges)
   - [VPN - Instillation and Use Instructions](https://www.library.ucdavis.edu/service/connect-from-off-campus/)
     - VPN can only be installed if you are a UC Davis student/staff
 
-## Running the tests
-
-* Open Anaconda, launch Spyder (used version 3.3.6 to create this program), and run the program. 
-* In the terminal you will see a series of scatter plots titled, 'Cluster of Words', each with a cooresponding iteration, along with a 
+## Running the Program
+* Once program is run, you will see a series of scatter plots titled, 'Cluster of Words', each with a cooresponding iteration, along with a 
   series of line graphs titled, 'The Elbow Method'. A .png file for each of the scatter plots will automatically be saved to the
   working directory.
   - Iteration 0: Scatter plot of all the words that appear on the desired catalog before any manipulation has been done.
