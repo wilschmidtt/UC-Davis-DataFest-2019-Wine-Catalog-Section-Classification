@@ -67,8 +67,8 @@ by feature location was done with K-Means machine learning algorithm.
 
 ## Authors
 
-* **William Schmidt** - [Wil's LikedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
-* **Isaiah Valencia** - [Isaiah's LikedIn](https://www.linkedin.com/in/isaiah-valencia-4b1531164/)
+* **William Schmidt** - [Wil's LinkedIn](https://www.linkedin.com/in/william-schmidt-152431168/)
+* **Isaiah Valencia** - [Isaiah's LinkedIn](https://www.linkedin.com/in/isaiah-valencia-4b1531164/)
 * **Christopher Ton** - [Christopher's GitHub](https://github.com/chriztopherton), [Cristopher's LikedIn](https://www.linkedin.com/in/chrton/)
 
 ## Acknowledgments
