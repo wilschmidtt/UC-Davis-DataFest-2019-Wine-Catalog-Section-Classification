@@ -21,7 +21,7 @@ by feature location was done with K-Means machine learning algorithm.
 * UC Davis VPN (optional - used for viewing the wine catalouges)
   - [VPN - Instillation and Use Instructions](https://www.library.ucdavis.edu/service/connect-from-off-campus/)
     - VPN can only be installed if you are a UC Davis student/staff
-
+ 
 ## Running the Program
 * Once program is run, you will see a series of scatter plots titled, 'Cluster of Words', each with a cooresponding iteration, along with a 
   series of line graphs titled, 'The Elbow Method'. A .png file for each of the scatter plots will automatically be saved to the
