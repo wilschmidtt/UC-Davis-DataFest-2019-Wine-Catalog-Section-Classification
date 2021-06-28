@@ -1,4 +1,4 @@
-# UC Davis DataFest 2019 - Section Detector
+# UC Davis DataFest 2019
 ![What](Images/catalog.png)
 #### The Challenge 
 The UC Davis Library has over 200 scanned catalogs spanning nearly a 50 year period. How do we translate a scanned image
