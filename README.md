@@ -8,7 +8,7 @@ Unstructured text recognition using Python and Spyder. Utilize Pandas, NumPy, Ma
 by feature location was done with K-Means machine learning algorithm.
 
 [DataFest Website](http://ds.lib.ucdavis.edu/eventscalendar/datafest-wine-catalog-challenge/)
- 
+  
 ## Libraries
 * psycopg2 - DB API 2.0 compliant PostgreSQL driver
 * matplotlib - plotting library for NumPy
